@@ -1,0 +1,88 @@
+/**
+ * Created by ssavaira on 7/28/2015.
+ */
+
+ [
+
+     {
+
+         "name": "Shoes",
+
+         "products": [
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Shoe 1",
+
+                 "price": 4000
+
+             },
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Shoe 2",
+
+                 "price": 2000
+
+             },
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Shoe 3",
+
+                 "price": 3000
+
+             }
+
+         ]
+
+     },
+
+     {
+
+         "name": "Rackets",
+
+         "products": [
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Rackets 1",
+
+                 "price": 4000
+
+             },
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Rackets 2",
+
+                 "price": 5000
+
+             },
+
+             {
+
+                 "image": "../img/shoe1.jpg",
+
+                 "name": "Rackets 3",
+
+                 "price": 3000
+
+             }
+
+         ]
+
+     }
+
+ ]
+

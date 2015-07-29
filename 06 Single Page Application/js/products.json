@@ -1,0 +1,133 @@
+[
+
+        {
+
+            "name": "Shoes",
+
+            "products": [
+
+                {
+
+                    "name": "Puma flat sole",
+
+                    "price": 2000,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "reebok re-flex",
+
+                    "price": 3000,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "adidas",
+
+                    "price": 4000,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "goldstar",
+
+                    "price": 4000,
+
+                    "image": "../img/shoe1.jpg"
+
+                }
+
+            ]
+
+        },
+
+        {
+
+            "name": "Rackets",
+
+            "products": [
+
+                {
+
+                    "name": "muscle power",
+
+                    "price": 2599,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "copper 900",
+
+                    "price": 2999,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "Rehaman premium",
+
+                    "price": 4999,
+
+                    "image": "../img/shoe1.jpg"
+
+                }
+
+            ]
+
+        },
+
+        {
+
+            "name": "Shuttles",
+
+            "products": [
+
+                {
+
+                    "name": "mavis 500",
+
+                    "price": 1500,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "Xiadyan 3800",
+
+                    "price": 1765,
+
+                    "image": "../img/shoe1.jpg"
+
+                },
+
+                {
+
+                    "name": "yard sport",
+
+                    "price": 1295,
+
+                    "image": "../img/shoe1.jpg"
+
+                }
+
+            ]
+
+        }
+
+    ]

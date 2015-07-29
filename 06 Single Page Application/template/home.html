@@ -1,0 +1,38 @@
+<section id="bestsellers">
+    <header>Best Sellers @ Renu's Badminton Store</header>
+    <!--<section>-->
+    <!--<select ng-model="query.name" class="input-medium" >-->
+
+    <!--<option selected value="">All</option>-->
+    <!--<option  ng-repeat="category in categories" value="{{category.name}}"> {{category.name }} </option>-->
+    <!--</select>-->
+
+    <!--</section>-->
+    <section>
+
+        <div ng-repeat="category in categories ">
+            <input type="checkbox"  checked ng-click="show(category.name)" >{{category.name}}
+        </div>
+    </section>
+    <section ng-repeat="category in categories  | filter : filterMy"  class="badmintonbestsellers">
+        <header class="backgroundgradient">
+            {{category.name | uppercase }} <span style="float : right" ng-click="sortAccending()">&#9650</span>
+            <span style="float : right" ng-click="sortDecending()">&#9660</span>
+        </header>
+        <article ng-repeat="product in category.products| orderBy: sortWord "  class="productarticle">
+            <figure>
+                <img class="productarticlethumbnail" src="{{product.image}}"/>
+            </figure>
+            <header>
+                    <span class="productarticlename">
+                        <a href="shoedetails.html">{{product.name}}</a>
+                    </span>
+            </header>
+            <p class="productarticleprice">{{product.price | currency : "&#8377"}}</p>
+            <div class="addtocartbutton">
+                Add to Cart
+            </div>
+        </article>
+
+    </section>
+</section>
